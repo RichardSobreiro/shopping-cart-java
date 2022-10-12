@@ -24,7 +24,7 @@ A NoSQL database was choosed because of schemaless storage model. Whith that app
 
 ## Run Localy
 
-To run the application locally we need have docker installed.
+To test the application locally and debug the automated tests we need to have docker installed.
 Whith that said you can run the following commands in order to setup the local mongo database (Windows):
 ```
 docker-compose up
@@ -71,6 +71,8 @@ During the tests the IDE IntelliJ IDEA 2022.2.3 (Community Edition) was used.
 We are also providing a postman collection file whithin this repository available in the file "ShoppingCart.postman_collection".
 
 ## Tests
+
+To run the automated tests the local database must already running.
 
 The automated tests are available whithin the class ShoppingCartTests:
 <p align="center">
